@@ -6,7 +6,7 @@ const prefix = ("Todd");
 
 bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
-    bot.user.setActivity('Fume des splifs avec Bojack').catch(console.error)
+    bot.user.setActivity('Fumer des splifs avec Bojack').catch(console.error)
 });
 
 bot.on('guildMemberAdd', member => {
