@@ -22,7 +22,7 @@ bot.on('message', msg => {
         msg.reply("Hey Salut, ça va ?")
     }
     {
-    if (msg.content === "bonjour"){
+    if (msg.content === "Bonjour"){
         msg.reply("Hey Salut, ça va ?")
     }
     if (msg.content === prefix + "youtube"){
