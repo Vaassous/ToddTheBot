@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const cfg = require('./index.json');
 const token = process.env.token; 
-const prefix = ("Todd");
+const prefix = ("\");
 
 bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
@@ -18,6 +18,10 @@ bot.on('guildMemberAdd', member => {
 
 
 bot.on('message', msg => {
+    if (msg.content === "bonjour"){
+        msg.reply("Hey Salut, ça va ?")
+    }
+    {
     if (msg.content === "bonjour"){
         msg.reply("Hey Salut, ça va ?")
     }
